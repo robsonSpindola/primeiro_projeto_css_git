@@ -1,1 +1,61 @@
 /* INICIO DO ARQUIVO CSS */
+/* CTRL + ; INSERE OS COMENTARIOS NO CSS */
+/* Seletores básicos */
+/* 
+    seletor de id => # => ESPECIFICIDADE 3
+     - mais especifico, ganha da class e da tag
+
+    seletor de class => . => ESPECIFICIDADE 2
+     - ganha da tag
+
+    seletor de tag => tag => ESPECIFICIDADE 1
+     - class e id ganham da tag
+
+ */
+
+/* 
+  classe = seletor mais especifico para muitos elementos
+
+  id = seletor especifico para UM elemento (apenas um elemento por ID)
+
+ */
+
+/* por tag */
+h4 {
+  font-size: 20px;
+}
+
+/* por classe */
+.titulo {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+/* por id */
+#paragrafo-especial {
+  font-size: 40px;
+  color: chocolate;
+}
+
+.basic-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #845245;
+}
+
+.styled-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+
+.weighty-text {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.fancy-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #7eb3cc;
+  text-align: center;
+  text-transform: uppercase;
+}
